@@ -1,0 +1,18 @@
+[package]
+name = "ruws"
+version = "0.1.0"
+build = "build.rs"
+
+[lib]
+name = "ruws"
+
+
+
+[dependencies]
+libc = "*"
+
+[build-dependencies]
+bindgen = "0.51"
+cc = "1.0"
+
+
