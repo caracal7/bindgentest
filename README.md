@@ -1,0 +1,4 @@
+# bindgentest
+
+
+cargo run
